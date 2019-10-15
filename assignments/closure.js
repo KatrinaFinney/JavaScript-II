@@ -5,6 +5,18 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
+function country(Indonesia){
+  const lang1 = 'Indonesian';
+  const lang2 ='Balinese';
+  console.log(`${countryName} is a place I've always wanted to visit`);
+  function province(Bali){
+     const sport = 'surfing'
+    console.log(`the most popular sport in ${provName} is ${sport}`);
+
+
+
+
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
@@ -26,8 +38,8 @@ const counterMaker = () => {
 // will refuse to go over the limit, and start back at 1.
 
 // ==== Challenge 4: Create a counter function with an object that can increment and decrement ====
-const counterFactory = () => {
+//const counterFactory = () => {
   // Return an object that has two methods called `increment` and `decrement`.
   // `increment` should increment a counter variable in closure scope and return it.
   // `decrement` should decrement the counter variable and return it.
-};
+  }}
